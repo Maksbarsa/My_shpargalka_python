@@ -85,17 +85,17 @@ class Calc:    # Класс
         self.num2 = num2  # атрибуты экземпляра класса (индивидуальные)
                                       # АТРИБУТ КЛАССА
 
-    def resul(self):  # метод класса
+    def resul(self):  # метод экземпляра класса
         return self.num1 + self.num2  # Тело метода: возвращает сумму полей num1 и num2 текущего объекта (self).
                                       # АТРИБУТ КЛАССА
 
-    def sravn(self):  # метод класса
+    def sravn(self):  # метод экземпляра класса
         if self.num1 > self.num2:
             return self.num1
         else:
             return self.num2          # АТРИБУТ КЛАССА
 
-    def sravn1(self):  # метод класса
+    def sravn1(self):  # метод экземпляра класса
         if Calc.sravn(res1) > res1.num3:
             return Calc.sravn(res1)
         else:
