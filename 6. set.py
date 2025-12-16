@@ -57,3 +57,5 @@ r2 = a.intersection(b)  # выводит одинаковые элементы (
 # Неизменяемое множество: "frozenset"
 a = {frozenset([1, 2, 3, 4])}
 # print(a): {frozenset({1, 2, 3, 4})}
+
+"привет"
